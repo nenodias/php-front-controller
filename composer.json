@@ -1,0 +1,13 @@
+{
+   "name": "PHP-Front",
+   "description": "Projeto testando um Front Controller com PHP",
+   "authors": [
+	   {
+		   "name": "Horácio Dias",
+		   "email": "horacio.dias92@gmail.com"
+	   }
+   ],
+   "require": {
+	   "php": ">=5.2.8"
+   }
+}
