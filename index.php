@@ -1,5 +1,14 @@
 <?php
+$loader = require 'vendor/autoload.php';
 
-header('Content-Type: text/html; charset=utf-8');
+use Core\FrontController;
+use App;
 
-require "vendor/autoload.php";
+
+$frontController = new FrontController(array(
+    "controller" => "app\Index", 
+    "action"     => "index", 
+    "params"     => array()
+));
+
+$frontController->run();
